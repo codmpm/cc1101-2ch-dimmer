@@ -149,7 +149,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYzE1ODk4" projecturn="a.cGVyc29uYWw6dWUyYzE1ODk4IzIwMTkwNTIyMTk1MjcwNTc2" f3durn="urn:adsk.wipprod:dm.lineage:Do3EwrqUQsm4K76UVnc5Lw" pcbguid="efbf0819-2c0a-4a22-9cb5-7b69a92d5c92" lastpulledtime="" lastsyncedchangeguid="3eacc4b6-8b18-6f1c-ca59-ca21c3ddd68a"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYzE1ODk4" projecturn="a.cGVyc29uYWw6dWUyYzE1ODk4IzIwMTkwNTIyMTk1MjcwNTc2" f3durn="urn:adsk.wipprod:dm.lineage:Do3EwrqUQsm4K76UVnc5Lw" pcbguid="efbf0819-2c0a-4a22-9cb5-7b69a92d5c92" lastpulledtime="" lastsyncedchangeguid="6e5da598-40ce-22c0-779e-7ddc530cfc92"/>
 <plain>
 <wire x1="57.8" y1="0.1" x2="57.8" y2="56.7" width="0" layer="20"/>
 <wire x1="57.8" y1="56.7" x2="24.95" y2="56.7" width="0" layer="20"/>
@@ -175,7 +175,7 @@
 <text x="13.2" y="51" size="1.27" layer="25" font="vector" ratio="7" rot="R90" align="center-right">3V3</text>
 <text x="36.8" y="26.5" size="1.6764" layer="25" font="vector" ratio="7" rot="R90" align="top-left">CC1101 2Ch
 PWM Dimmer
-90100, V0.1</text>
+90401, V0.1</text>
 <text x="12.4" y="2" size="1.016" layer="25" font="vector" ratio="7" rot="R90" align="top-left">codm.de, 2019
 CC-BY-NC</text>
 <text x="17.8" y="9.7" size="1.016" layer="25" font="vector" ratio="7" align="center-left">1</text>
@@ -187,7 +187,7 @@ CC-BY-NC</text>
 <text x="56.7" y="22.6" size="1.27" layer="26" font="vector" ratio="7" rot="MR0" align="center-left">PWM</text>
 <text x="47.2" y="7.6" size="1.27" layer="25" font="vector" ratio="7" rot="R90" align="center">LED1</text>
 <text x="47.2" y="20" size="1.27" layer="25" font="vector" ratio="7" rot="R90" align="center">LED2</text>
-<text x="54" y="55" size="1.27" layer="26" font="vector" ratio="7" rot="MR0" align="center">7-28V</text>
+<text x="47.1" y="49.2" size="1.27" layer="25" font="vector" ratio="7" rot="R90" align="center">VIN 7-28V</text>
 </plain>
 <libraries>
 <library name="codm">
@@ -4138,19 +4138,19 @@ design rules under a new name.</description>
 <attribute name="NAME" x="38.8" y="18.2964" size="1.27" layer="25" ratio="7" align="top-center"/>
 <attribute name="VALUE" x="36.26" y="16.72" size="1.27" layer="27"/>
 </element>
-<element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="34.2" y="42" smashed="yes" rot="R180">
-<attribute name="NAME" x="32.2016" y="42" size="1.27" layer="25" ratio="7" align="center-right"/>
-<attribute name="SPICEPREFIX" value="C" x="42.2" y="34" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="35.47" y="44.54" size="1.27" layer="27" rot="R180"/>
+<element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="32.2" y="42" smashed="yes" rot="R180">
+<attribute name="NAME" x="30.2016" y="42" size="1.27" layer="25" ratio="7" align="center-right"/>
+<attribute name="SPICEPREFIX" value="C" x="40.2" y="34" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="33.47" y="44.54" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="SK34A" x="43.1" y="51.7" smashed="yes">
-<attribute name="NAME" x="43.1" y="52.954" size="1.27" layer="25" ratio="7" align="bottom-center"/>
-<attribute name="VALUE" x="40.46" y="49.144" size="1.27" layer="27" ratio="10"/>
+<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO214AC" package3d_urn="urn:adsk.eagle:package:43417/2" value="SK34A" x="41.1" y="51.7" smashed="yes">
+<attribute name="NAME" x="41.1" y="52.954" size="1.27" layer="25" ratio="7" align="bottom-center"/>
+<attribute name="VALUE" x="38.46" y="49.144" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="U2" library="0ZCG0035AF2C" package="0ZCG" value="0ZCG0035AF2C" x="43" y="47.9" smashed="yes" rot="R180">
-<attribute name="MANUFACTURER_PART_NUMBER" value="0ZCG0035AF2C" x="46" y="53.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="42.9572" y="48.468" size="1.27" layer="25" ratio="7" align="top-center"/>
-<attribute name="VENDOR" value="Belfuse" x="46" y="53.9" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U2" library="0ZCG0035AF2C" package="0ZCG" value="0ZCG0035AF2C" x="41" y="47.9" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER_PART_NUMBER" value="0ZCG0035AF2C" x="44" y="53.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="40.9572" y="48.468" size="1.27" layer="25" ratio="7" align="top-center"/>
+<attribute name="VENDOR" value="Belfuse" x="44" y="53.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="X2" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" package="MSTBA2" package3d_urn="urn:adsk.eagle:package:9615/1" override_package3d_urn="urn:adsk.eagle:package:11204481/2" override_package_urn="urn:adsk.eagle:footprint:9521/1" value="MSTBA2" x="55.8" y="49.2" smashed="yes" rot="R90">
 <attribute name="MF" value="FARNELL" x="55.8" y="49.2" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4203,15 +4203,15 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="36M3582" x="54.2" y="32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="60.169" y="28.317" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U3" library="173950378" package="SIP-3" override_package3d_urn="urn:adsk.eagle:package:11446028/3" override_package_urn="urn:adsk.eagle:footprint:11446029/1" value="173950378" x="38.3" y="49.3" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="Unavailable" x="38.3" y="49.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" DC/DC Converter IC [Würth Elektronik] 173950378 DC/DC Converter IC " x="38.3" y="49.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Wurth Electronics" x="38.3" y="49.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="173950378" x="38.3" y="49.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="31.5" y="45.58485" size="1.27" layer="25" ratio="7" rot="R180" align="bottom-center"/>
-<attribute name="PACKAGE" value="SIP-3 Würth Elektronik" x="38.3" y="49.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="38.3" y="49.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="34.299009375" y="49.3" size="1.270309375" layer="27" rot="R90" align="bottom-center"/>
+<element name="U3" library="173950378" package="SIP-3" override_package3d_urn="urn:adsk.eagle:package:11446028/3" override_package_urn="urn:adsk.eagle:footprint:11446029/1" value="173950378" x="36.3" y="49.3" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="Unavailable" x="36.3" y="49.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" DC/DC Converter IC [Würth Elektronik] 173950378 DC/DC Converter IC " x="36.3" y="49.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Wurth Electronics" x="36.3" y="49.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="173950378" x="36.3" y="49.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="29.5" y="45.58485" size="1.27" layer="25" ratio="7" rot="R180" align="bottom-center"/>
+<attribute name="PACKAGE" value="SIP-3 Würth Elektronik" x="36.3" y="49.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="36.3" y="49.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="32.299009375" y="49.3" size="1.270309375" layer="27" rot="R90" align="bottom-center"/>
 </element>
 <element name="U$2" library="codm" package="CODM-LOGO" value="" x="11.8" y="2" smashed="yes" rot="R90"/>
 <element name="U$3" library="codm" package="WEEE-LOGO-5MM" value="" x="26.08" y="43.411" smashed="yes" rot="R90"/>
@@ -4453,8 +4453,8 @@ design rules under a new name.</description>
 <contactref element="U1" pad="18"/>
 <contactref element="C1" pad="1"/>
 <contactref element="U3" pad="P$3"/>
-<wire x1="36.3" y1="51.84" x2="34.94" y2="51.84" width="0.254" layer="1"/>
-<wire x1="34.94" y1="51.84" x2="33.25" y2="50.15" width="0.254" layer="1"/>
+<wire x1="34.3" y1="51.84" x2="32.94" y2="51.84" width="0.254" layer="1"/>
+<wire x1="32.94" y1="51.84" x2="31.25" y2="50.15" width="0.254" layer="1"/>
 <wire x1="22.45" y1="35.15" x2="22.45" y2="34.25" width="0.254" layer="1"/>
 <wire x1="22.65" y1="35.35" x2="22.45" y2="35.15" width="0.254" layer="1"/>
 <wire x1="22.45" y1="34.25" x2="22.4" y2="34.2" width="0.254" layer="1"/>
@@ -4471,14 +4471,14 @@ design rules under a new name.</description>
 <wire x1="21.5934" y1="25.9852" x2="21.5934" y2="15.5434" width="0.254" layer="1"/>
 <wire x1="21.5934" y1="15.5434" x2="19.56" y2="13.51" width="0.254" layer="1"/>
 <wire x1="13.21" y1="49.39" x2="14.1" y2="48.5" width="0.254" layer="1"/>
-<wire x1="14.1" y1="48.5" x2="32.75" y2="48.5" width="0.254" layer="1"/>
+<wire x1="14.1" y1="48.5" x2="30.75" y2="48.5" width="0.254" layer="1"/>
 <wire x1="22.45" y1="37.5" x2="22.5" y2="36.95" width="0.254" layer="1"/>
 <wire x1="22.5" y1="36.95" x2="22.45" y2="36.9" width="0.254" layer="1"/>
 <wire x1="22.45" y1="36.9" x2="22.45" y2="36.8" width="0.254" layer="1"/>
 <wire x1="22.45" y1="36.8" x2="22.45" y2="35.15" width="0.254" layer="1"/>
 <wire x1="24.05" y1="38.4" x2="22.45" y2="36.8" width="0.254" layer="1"/>
-<wire x1="33.25" y1="42" x2="29.65" y2="38.4" width="0.254" layer="1"/>
-<wire x1="29.65" y1="38.4" x2="24.05" y2="38.4" width="0.254" layer="1"/>
+<wire x1="31.25" y1="42" x2="27.65" y2="38.4" width="0.254" layer="1"/>
+<wire x1="27.65" y1="38.4" x2="24.05" y2="38.4" width="0.254" layer="1"/>
 <wire x1="31.7" y1="26.858" x2="30.642" y2="26.858" width="0.1524" layer="1"/>
 <wire x1="30.642" y1="26.858" x2="30.3" y2="27.2" width="0.1524" layer="1"/>
 <wire x1="30.3" y1="27.2" x2="30.3" y2="27.4" width="0.1524" layer="1"/>
@@ -4495,9 +4495,9 @@ design rules under a new name.</description>
 <wire x1="12.37" y1="36.93" x2="12.8" y2="36.5" width="0.254" layer="1"/>
 <wire x1="12.8" y1="36.5" x2="22.05" y2="36.5" width="0.254" layer="1"/>
 <wire x1="22.05" y1="36.5" x2="22.45" y2="36.9" width="0.254" layer="1"/>
-<wire x1="33.25" y1="50.15" x2="33.25" y2="48" width="0.254" layer="1"/>
-<wire x1="33.25" y1="48" x2="33.25" y2="42" width="0.254" layer="1"/>
-<wire x1="32.75" y1="48.5" x2="33.25" y2="48" width="0.254" layer="1"/>
+<wire x1="31.25" y1="50.15" x2="31.25" y2="48" width="0.254" layer="1"/>
+<wire x1="31.25" y1="48" x2="31.25" y2="42" width="0.254" layer="1"/>
+<wire x1="30.75" y1="48.5" x2="31.25" y2="48" width="0.254" layer="1"/>
 </signal>
 <signal name="PWM1">
 <contactref element="R3" pad="1"/>
@@ -4576,7 +4576,7 @@ design rules under a new name.</description>
 <contactref element="X2" pad="1"/>
 <contactref element="X3" pad="1"/>
 <contactref element="X4" pad="1"/>
-<wire x1="45.6162" y1="47.9" x2="45.6762" y2="47.96" width="0.254" layer="1"/>
+<wire x1="43.6162" y1="47.9" x2="43.6762" y2="47.96" width="0.254" layer="1"/>
 <wire x1="50.72" y1="17.46" x2="48.84" y2="17.46" width="4" layer="16"/>
 <wire x1="48.84" y1="17.46" x2="46.4" y2="19.9" width="4" layer="16"/>
 <wire x1="46.4" y1="19.9" x2="46.4" y2="38.6" width="4" layer="16"/>
@@ -4588,17 +4588,17 @@ design rules under a new name.</description>
 <wire x1="55.2" y1="7.2" x2="53" y2="5" width="4" layer="16"/>
 <wire x1="53" y1="5" x2="50.78" y2="5" width="4" layer="16"/>
 <wire x1="50.78" y1="5" x2="50.72" y2="5.06" width="4" layer="16"/>
-<wire x1="45.6162" y1="47.9" x2="49.48" y2="47.9" width="0.254" layer="1"/>
+<wire x1="43.6162" y1="47.9" x2="49.48" y2="47.9" width="0.254" layer="1"/>
 <wire x1="49.48" y1="47.9" x2="50.72" y2="46.66" width="0.254" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="D1" pad="C"/>
 <contactref element="U2" pad="2"/>
 <contactref element="U3" pad="P$1"/>
-<wire x1="36.3" y1="46.76" x2="37.44" y2="47.9" width="0.254" layer="1"/>
-<wire x1="40.3838" y1="47.9" x2="37.44" y2="47.9" width="0.254" layer="1"/>
-<wire x1="41.05" y1="51.7" x2="40.3838" y2="51.0338" width="0.254" layer="1"/>
-<wire x1="40.3838" y1="51.0338" x2="40.3838" y2="47.9" width="0.254" layer="1"/>
+<wire x1="34.3" y1="46.76" x2="35.44" y2="47.9" width="0.254" layer="1"/>
+<wire x1="38.3838" y1="47.9" x2="35.44" y2="47.9" width="0.254" layer="1"/>
+<wire x1="39.05" y1="51.7" x2="38.3838" y2="51.0338" width="0.254" layer="1"/>
+<wire x1="38.3838" y1="51.0338" x2="38.3838" y2="47.9" width="0.254" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R4" pad="2"/>
