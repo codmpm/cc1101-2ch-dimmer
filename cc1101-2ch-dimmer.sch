@@ -17885,8 +17885,9 @@ DIN A4, landscape with location and doc. field</description>
 <sheets>
 <sheet>
 <plain>
-<text x="86.36" y="111.76" size="3.302" layer="97">CC-BY-NC
-codm.de, 2019</text>
+<text x="164.338" y="21.844" size="2.54" layer="94" align="top-left">cod.m GmbH 2019
+Patrik Mayer 
+codm.de, CC-BY-NC</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="106.68" y="76.2" smashed="yes" rot="R270">
